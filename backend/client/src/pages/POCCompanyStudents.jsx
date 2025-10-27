@@ -405,7 +405,7 @@ export default function POCCompanyStudents() {
         title="Mark Process Complete"
         message={`Are you sure you want to mark the interview process for "${company?.name}" as completed? This will hide the company from all students' dashboards.`}
         confirmText="Mark Complete"
-        confirmColor="purple"
+        // confirmColor="purple"
         icon="warning"
       />
     </div>
